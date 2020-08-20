@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Mont";
+    src: url(Mont.otf);
+}
+@font-face {
+    font-family: "Belligiant";
+    src: url(Belligiant.otf);
+}
+
+@font-face {
+    font-family: "Caviar";
+    src: url(CaviarDreams.ttf);
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("https://images.hdqwalls.com/wallpapers/red-dead-redemption-2-minimal-4k-gd.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+}
+.text{
+    font-family: "Mont";
+    color: whitesmoke;
+    font-size: 105px;
+}
+
+.sign{
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Belligiant";
+}
+
+.state{
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Caviar";
+}
+
+
+#point{
+    font-size: 25px;
+}
+  
